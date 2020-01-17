@@ -1,0 +1,49 @@
+body {
+    background-color: #0080ff;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: rgb(244, 185, 161);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div{
+  width:600px;
+}
+div.cont{
+
+}
+img.c1{
+    position: absolute;
+    margin-left: -80px;
+ /* -webkit-transform: rotate(-10deg);
+   -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+     -o-transform: rotate(-10deg);
+        transform: rotate(-10deg);*/
+}
+img.c2{
+  position: absolute;
+  /*-webkit-transform: rotate(20deg);
+   -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+     -o-transform: rotate(20deg);
+        transform: rotate(20deg);
+        margin-left: -40px;*/
+}
+h1.win{
+  color: green;
+}
+h1.lose{
+  color: red;
+}
